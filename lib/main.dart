@@ -32,7 +32,7 @@ class RandomWordsState extends State<RandomWords>{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("titletext"),
+        title: Text("hello"),
         actions: <Widget>[
           IconButton(icon: Icon(Icons.list),onPressed: _pushSaved,),
         ],
